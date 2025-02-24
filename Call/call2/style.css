@@ -1,0 +1,109 @@
+.cta-section {
+    /* Propriété display */
+    display: flex;
+
+    /* Positionnement */
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+
+    /* Modèle de boîte */
+    padding: 1.25rem; /* 20px */
+    border-radius: 5px; /* 5px */
+
+    /* Typographie */
+    font-family: var(--ff-sans);
+
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-glaucous);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 0 0 10px */
+
+    /* Transformations et transitions */
+}
+
+.cta-section__text {
+    /* Propriété display */
+
+    /* Positionnement */
+    text-align: justify;
+    padding-left: 5rem; /* 80px */
+
+    /* Modèle de boîte */
+    max-width: 30rem;
+
+    /* Typographie */
+    font-size: 0.8125rem; /* 13px */
+    color: var(--clr-light);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.cta-section__button-container {
+    /* Propriété display */
+    display: flex;
+
+    /* Positionnement */
+    gap: 0.625rem; /* 10px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.cta-section__button--primary {
+    /* Propriété display */
+    display: inline-block;
+
+    /* Positionnement */
+    cursor: pointer;
+
+    /* Modèle de boîte */
+    padding: 0.625rem 1.25rem; /* 10px 20px */
+    border: none;
+    border-radius: 15px; /* 15px */
+
+    /* Typographie */
+    font-size: 16px; /* 16px */
+    color: var(--clr-light);
+
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-cosmic-cobalt);
+
+    /* Transformations et transitions */
+}
+
+.cta-section__button--secondary {
+    /* Propriété display */
+    display: inline-block;
+
+    /* Positionnement */
+    cursor: pointer;
+
+    /* Modèle de boîte */
+    padding: 0.625rem 1.25rem; /* 10px 20px */
+    border-radius: 15px; /* 15px */
+    border: 1px solid var(--clr-light); /* 1px */
+
+    /* Typographie */
+    font-size: 16px; /* 16px */
+    color: var(--clr-light);
+
+    /* Effets Visuels & Graphiques */
+    background-color: transparent;
+
+    /* Transformations et transitions */
+}
+
+.cta-section__button--primary:hover {
+    background-color: var(--clr-chinese-black);
+}
+
+.cta-section__button--secondary:hover{
+    background-color: var(--clr-light-gray);
+}

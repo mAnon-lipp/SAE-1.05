@@ -1,0 +1,253 @@
+.flights {
+  /* Propriété display */
+  display: flex;
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+  max-height: 40rem; /* 640px */
+  margin-bottom: 1rem; /* 16px */
+  border-radius: 10px;
+  overflow: hidden;
+
+  /* Typographie */
+  font-family: var(--ff-sans);
+
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-light);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 0 0 10px */
+
+  /* Transformations et transitions */
+}
+
+.flights__image {
+  /* Propriété display */
+
+  /* Positionnement */
+  flex: 1;
+  max-width: 45%;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.flights__image-item {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+  object-fit: fill;
+
+  /* Transformations et transitions */
+}
+
+.flights__info {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+  flex: 1;
+  padding: 2.5rem; /* 40px */
+  padding-top: 2rem; /* 32px */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.flights__title {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 24px; /* 24px */
+  color: var(--clr-dark-brown);
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.flights__description {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 16px; /* 16px */
+  color: var(--clr-light-brown);
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.flights__option {
+  /* Propriété display */
+  display: flex;
+
+  /* Positionnement */
+  margin-top: 1rem; /* 16px */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.flights__option img {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin-right: 1rem; /* 16px */
+
+  /* Modèle de boîte */
+  width: 7.5rem; /* 120px */
+  height: 7.5rem; /* 120px */
+  border-radius: 8px; /* 8px */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+  object-fit: cover;
+
+  /* Transformations et transitions */
+}
+
+.flights__details {
+  /* Propriété display */
+
+  /* Positionnement */
+  flex: 1;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.flights__option-title {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin: 0;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 20px; /* 20px */
+  color: var(--clr-dark-brown);
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.flights__price {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin: 0.3125rem 0; /* 5px 0 */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 16px; /* 16px */
+  color: var(--clr-light-brown);
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.flights__button--primary,
+.flights__button--secondary {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+  padding: 0.5rem 1rem; /* 8px 16px */
+  border-radius: 80px; /* 80px */
+
+  /* Typographie */
+  font-size: 14px; /* 14px */
+
+  /* Effets Visuels & Graphiques */
+  transition: background-color 0.3s, color 0.3s;
+
+  /* Transformations et transitions */
+}
+
+.flights__button--primary {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin-right: 0.5rem; /* 8px */
+  cursor: pointer;
+
+  /* Modèle de boîte */
+  border: none;
+
+  /* Typographie */
+  color: var(--clr-light);
+
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-cosmic-cobalt);
+
+  /* Transformations et transitions */
+}
+
+.flights__button--secondary {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin-right: 0.5rem; /* 8px */
+  cursor: pointer;
+
+  /* Modèle de boîte */
+  border: 2px solid var(--clr-light-gray); /* 2px */
+
+  /* Typographie */
+  color: var(--clr-light-gray);
+
+  /* Effets Visuels & Graphiques */
+  background-color: transparent;
+
+  /* Transformations et transitions */
+}
+
+.flights__button--primary:hover {
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-chinese-black);
+}
+
+.flights__button--secondary:hover {
+  /* Effets Visuels & Graphiques */
+  color: var(--clr-light);
+  background-color: var(--clr-light-gray);
+}

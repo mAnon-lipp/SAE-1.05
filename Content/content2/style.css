@@ -1,0 +1,86 @@
+.content-section {
+    /* Propriété display */
+
+    /* Positionnement */
+    text-align: center;
+    margin-top: 1.25rem; /* 20px */
+
+    /* Modèle de boîte */
+    padding: 6.25rem 1.25rem; /* 100px 20px */
+
+    /* Typographie */
+    font-family: var(--ff-sans);
+    color: var(--clr-light);
+
+    /* Effets Visuels & Graphiques */
+    background-image: url('../../../assets/fond.jpg');
+    background-size: cover;
+    background-position: center;
+
+    /* Transformations et transitions */
+}
+
+.content-section__text-container {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin: 0 auto;
+
+    /* Modèle de boîte */
+    max-width: 800px; /* 800px */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.content-section__subtitle {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-bottom: 0.625rem; /* 10px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 1.5em;
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.content-section__title {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-bottom: 1.25rem; /* 20px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 2.5em;
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.content-section__text {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-top: 0.625rem; /* 10px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 1em;
+    line-height: 1.5;
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}

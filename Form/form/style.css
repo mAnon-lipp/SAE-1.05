@@ -1,0 +1,182 @@
+.demo-section {
+    /* Propriété display */
+    display: flex;
+
+    /* Positionnement */
+    justify-content: center;
+    align-items: center;
+
+    /* Modèle de boîte */
+    padding: 1.25rem 7.5rem; /* 20px 120px */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.demo-section__content {
+    /* Propriété display */
+    display: flex;
+
+    /* Positionnement */
+    justify-content: space-between;
+    align-items: center;
+
+    /* Modèle de boîte */
+    width: 100%;
+    max-width: 75rem; /* 1200px */
+    gap: 1.25rem; /* 20px */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.demo-form {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+    max-width: 50%;
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.demo-form__title {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-bottom: 1.25rem; /* 20px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 2rem;
+    color: var(--clr-violent-violet);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.demo-form__description {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-bottom: 1.25rem; /* 20px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--clr-light-brown);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.demo-form__form {
+    /* Propriété display */
+    display: flex;
+
+    /* Positionnement */
+    align-items: center;
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.demo-form__input {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-right: 0.625rem; /* 10px */
+    box-sizing: border-box;
+
+    /* Modèle de boîte */
+    padding: 0.625rem; /* 10px */
+    border: 0.0625rem solid var(--clr-beige); /* 1px */
+    border-radius: 6.25rem; /* 100px */
+    width: 60%;
+
+    /* Typographie */
+    font-size: 1rem;
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.demo-form__button {
+    /* Propriété display */
+
+    /* Positionnement */
+    cursor: pointer;
+
+    /* Modèle de boîte */
+    padding: 0.625rem 1.25rem; /* 10px 20px */
+    border: none;
+    border-radius: 6.25rem; /* 100px */
+
+    /* Typographie */
+    font-size: 1rem;
+    color: var(--clr-light);
+
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-cosmic-cobalt);
+
+    /* Transformations et transitions */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.demo-form__button:hover {
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-chinese-black);
+}
+
+.demo-image {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+    max-width: 40%;
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.demo-image__img {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+    max-width: 100%;
+    height: auto;
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}

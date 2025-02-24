@@ -1,0 +1,76 @@
+.card {
+    /* Propriété display */
+    display: flex;
+
+    /* Positionnement */
+    align-items: center;
+    margin-top: 1.25rem; /* 20px */
+
+    /* Modèle de boîte */
+    padding: 1.25rem; /* 20px */
+    width: 300px; /* 300px */
+    border-radius: 10px; /* 10px */
+
+    /* Typographie */
+    font-family: var(--ff-sans);
+
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-glaucous);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 0 4px 8px */
+
+    /* Transformations et transitions */
+}
+
+.card__image {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-right: 1.25rem; /* 20px */
+    overflow: hidden;
+
+    /* Modèle de boîte */
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+
+
+.card__content p {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-top: 0.625rem; /* 10px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    color: var(--clr-dark-brown);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.card__author {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-top: 0.625rem; /* 10px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 12px; /* 12px */
+    color: var(--clr-dark-brown);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}

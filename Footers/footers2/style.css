@@ -1,0 +1,123 @@
+.site-footer {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+    padding: 1.25rem 0; /* 20px 0 */
+
+    /* Typographie */
+    font-family: var(--ff-sans);
+    text-align: center;
+
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-light-gray);
+
+    /* Transformations et transitions */
+}
+
+.site-footer__container {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin: 0 auto;
+
+    /* Modèle de boîte */
+    max-width: 1200px; /* 1200px */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.site-footer__nav {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-bottom: 0.625rem; /* 10px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.site-footer__link {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin: 0 0.9375rem; /* 15px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-weight: bold;
+    color: var(--clr-light-brown);
+
+    /* Effets Visuels & Graphiques */
+    text-decoration: none;
+
+    /* Transformations et transitions */
+}
+
+.site-footer__link:hover {
+    /* Effets Visuels & Graphiques */
+    color: var(--clr-indigo);
+}
+
+.site-footer__note {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 0.875rem; /* 14px */
+    color: var(--clr-dark-beige);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.site-footer__links {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-weight: bold;
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.site-footer__note a {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    color: var(--clr-bleu-de-france);
+
+    /* Effets Visuels & Graphiques */
+    text-decoration: none;
+
+    /* Transformations et transitions */
+}
+
+.site-footer__note a:hover {
+    /* Effets Visuels & Graphiques */
+    text-decoration: underline;
+}

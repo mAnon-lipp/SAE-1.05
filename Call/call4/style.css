@@ -1,0 +1,40 @@
+.cta-container {
+    text-align: center;
+    padding: 40px 20px; /* Added more padding to the top/bottom and left/right */
+    max-width: 400px;
+    margin: auto;
+}
+
+.cta-title {
+    font-size: 2em;
+    color: var(--clr-violent-violet); /* Dark blue color */
+    margin-bottom: 20px; /* Increased space between title and description */
+}
+
+.cta-description {
+    font-size: 1em;
+    color: var(--clr-light-brown); /* Light gray color */
+    margin-bottom: 60px; /* Increased space between description and button */
+}
+
+.cta-button {
+    background-color: var(--clr-cosmic-cobalt); /* Green color */
+    color: var(--clr-light); /* White text */
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 100px;
+    text-decoration: none;
+    margin-bottom: 20px; /* Added space between button and license text */
+}
+
+.cta-button:hover {
+    background-color: var(--clr-chinese-black); /* Slightly darker green for hover effect */
+}
+
+.cta-license {
+    font-size: 0.8em;
+    color: var(--clr-light-gray); /* Light gray color */
+    margin-top: 30px; /* Added space between button and license text */
+}

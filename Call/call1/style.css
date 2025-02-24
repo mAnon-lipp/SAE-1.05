@@ -1,0 +1,99 @@
+.cta {
+    /* Propriété display */
+
+    /* Positionnement */
+    text-align: center;
+
+    /* Modèle de boîte */
+    padding: 1.25rem; /* 20px */
+    border: none;
+    margin-bottom: 1.25rem; /* 20px */
+
+    /* Typographie */
+    font-family: var(--ff-sans);
+
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-light);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 0 0 10px */
+
+    /* Transformations et transitions */
+}
+
+.cta__image {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+    width: 100px; /* 100px */
+    height: 100px; /* 100px */
+    border-radius: 20%;
+    margin-bottom: 0.625rem; /* 10px */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.cta__title {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin: 0.625rem 0; /* 10px 0 */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 24px; /* 24px */
+    color: var(--clr-dark-brown);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.cta__text {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin: 0.625rem 0; /* 10px 0 */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 16px; /* 16px */
+    color: var(--clr-dark-gray);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.cta__button {
+    /* Propriété display */
+    display: inline-block;
+
+    /* Positionnement */
+    cursor: pointer;
+
+    /* Modèle de boîte */
+    padding: 0.625rem 1.25rem; /* 10px 20px */
+    border: none;
+    border-radius: 15px; /* 15px */
+
+    /* Typographie */
+    font-size: 16px; /* 16px */
+    color: var(--clr-light);
+
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-cosmic-cobalt);
+
+    /* Transformations et transitions */
+}
+
+.cta__button:hover {
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-chinese-black);
+}

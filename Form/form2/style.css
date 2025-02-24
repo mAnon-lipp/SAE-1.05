@@ -1,0 +1,115 @@
+.signup {
+    /* Propriété display */
+
+    /* Positionnement */
+    text-align: center;
+    margin-top: 1.25rem; /* 20px */
+
+    /* Modèle de boîte */
+    padding: 1.25rem; /* 20px */
+    border-radius: 8px; /* 8px */
+
+    /* Typographie */
+    font-family: var(--ff-sans);
+
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-light);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 0 0 10px */
+
+    /* Transformations et transitions */
+}
+
+.signup__title {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-bottom: 1.25rem; /* 20px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 24px; /* 24px */
+    color: var(--clr-cosmic-cobalt);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.signup__form {
+    /* Propriété display */
+    display: flex;
+
+    /* Positionnement */
+    justify-content: center;
+    gap: 0.625rem; /* 10px */
+    margin-bottom: 0.625rem; /* 10px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.signup__input {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+    padding: 0.625rem; /* 10px */
+    border: 1px solid var(--clr-beige); /* 1px */
+    border-radius: 15px; /* 15px */
+    width: 200px; /* 200px */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.signup__button {
+    /* Propriété display */
+
+    /* Positionnement */
+    cursor: pointer;
+
+    /* Modèle de boîte */
+    padding: 0.625rem 1.25rem; /* 10px 20px */
+    border: none;
+    border-radius: 15px; /* 15px */
+
+    /* Typographie */
+    font-size: 16px; /* 16px */
+    color: var(--clr-light);
+
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-cosmic-cobalt);
+
+    /* Transformations et transitions */
+}
+
+.signup__button:hover {
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-chinese-black);
+}
+
+.signup__terms {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 12px; /* 12px */
+    color: var(--clr-light-brown);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}

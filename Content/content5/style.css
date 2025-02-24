@@ -1,0 +1,43 @@
+/* Description Section */
+.description {
+  /* Propriété display */
+  display: flex;
+
+  /* Positionnement */
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  text-align: center;
+
+  /* Modèle de boîte */
+  padding: 6.25rem 20.375rem 5.75rem 20.4375rem; /* 100px 326px 92px 327px */
+
+  /* Typographie */
+  font-family: var(--ff-sans);
+
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-light);
+
+  /* Transformations et transitions */
+}
+
+.description__text {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin: 0;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 2.625rem; /* 42px */
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.25rem; /* 52px, 123.81% */
+  letter-spacing: -0.025rem; /* -0.4px */
+  color: var(--clr-violent-violet);
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}

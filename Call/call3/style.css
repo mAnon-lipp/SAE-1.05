@@ -1,0 +1,127 @@
+/* Call to Action Section */
+.call-to-action {
+  /* Propriété display */
+  display: flex;
+
+  /* Positionnement */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+
+  /* Modèle de boîte */
+  padding: 4.375rem; /* 70px */
+  max-width: 62.5rem; /* 1000px */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-light);
+
+  /* Transformations et transitions */
+}
+
+.call-to-action__logo {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin-right: 1.25rem; /* 20px */
+
+  /* Modèle de boîte */
+  width: 5.9375rem; /* 95px */
+  height: 5.625rem; /* 90px */
+  border-radius: 1.0625rem; /* 17px */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.call-to-action__text {
+  /* Propriété display */
+
+  /* Positionnement */
+  flex-grow: 1;
+  margin-right: 2.5rem; /* 40px */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.call-to-action__title {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin: 0;
+  text-align: left;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 2.1875rem; /* 35px */
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.25rem; /* 52px, 123.81% */
+  letter-spacing: -0.025rem; /* -0.4px */
+  color: var(--clr-violent-violet);
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.call-to-action__subtitle {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin: 0.625rem 0 0; /* 10px 0 0 */
+  text-align: left;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 1.375rem; /* 22px */
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem; /* 32px, 145.455% */
+  color: var(--clr-light-brown);
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.call-to-action__button {
+  /* Propriété display */
+
+  /* Positionnement */
+  cursor: pointer;
+
+  /* Modèle de boîte */
+  padding: 0.625rem 1.25rem; /* 10px 20px */
+  border: 0.0625rem solid var(--clr-light-gray); /* 1px */
+  border-radius: 6.25rem; /* 100px */
+
+  /* Typographie */
+  font-size: 1rem; /* 16px */
+  color: var(--clr-cosmic-cobalt);
+
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-light);
+  transition: background-color 0.3s, color 0.3s;
+
+  /* Transformations et transitions */
+}
+
+.call-to-action__button:hover {
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-chinese-black);
+  color: var(--clr-light);
+}

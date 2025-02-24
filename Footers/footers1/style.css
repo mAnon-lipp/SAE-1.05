@@ -1,0 +1,225 @@
+.footer1 {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-bottom: 1.25rem; /* 20px */
+
+    /* Modèle de boîte */
+    padding: 1rem 0; /* Reduced padding for top and bottom */
+
+    /* Typographie */
+    font-family: var(--ff-sans);
+    color: var(--clr-light);
+
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-glaucous);
+
+    /* Transformations et transitions */
+}
+
+.footer1__container {
+    /* Propriété display */
+    display: flex;
+
+    /* Positionnement */
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+    /* Modèle de boîte */
+    max-width: 1200px; /* 1200px */
+    padding: 0 1.25rem; /* 20px */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.footer1__left {
+    /* Propriété display */
+    display: flex;
+
+    /* Positionnement */
+    align-items: center;
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.footer1__title {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-right: 1.25rem; /* 20px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 24px; /* 24px */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.footer1__right {
+    /* Propriété display */
+    display: flex;
+
+    /* Positionnement */
+    flex-direction: column;
+    align-items: flex-end;
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.footer1__links {
+    /* Propriété display */
+
+    /* Positionnement */
+    display: flex;
+    gap: 0.9375rem; /* 15px */
+
+    /* Modèle de boîte */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.footer1__link-item {
+    /* Propriété display */
+    display: inline;
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.footer1__link {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 14px; /* 14px */
+    color: var(--clr-light);
+
+    /* Effets Visuels & Graphiques */
+    text-decoration: none;
+
+    /* Transformations et transitions */
+}
+
+.footer1__line {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin: 0.5rem auto; /* Reduced margin for the line */
+
+    /* Modèle de boîte */
+    width: 95%; /* Line width matching the text width */
+    border-top: 1px solid var(--clr-light); /* 1px */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.footer1__bottom {
+    /* Propriété display */
+    display: flex;
+
+    /* Positionnement */
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5rem; /* Reduced margin for the bottom section */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.footer1__nav {
+    /* Propriété display */
+
+    /* Positionnement */
+    display: flex;
+    gap: 0.9375rem; /* 15px */
+    padding-top: 0.5rem; /* Reduced padding for the top */
+    margin: 0;
+
+    /* Modèle de boîte */
+    list-style: none;
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.footer1__item {
+    /* Propriété display */
+    display: inline;
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.footer1__text {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-top: 0.5rem; /* Reduced margin for the text */
+    text-align: center; /* Center the text */
+
+    /* Modèle de boîte */
+    padding-top: 0.5rem; /* Reduced padding for the top */
+
+    /* Typographie */
+    font-size: 14px; /* 14px */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}

@@ -1,0 +1,247 @@
+.footer {
+    /* Propriété display */
+    display: flex;
+
+    /* Positionnement */
+    justify-content: space-between;
+
+    /* Modèle de boîte */
+    padding: 6.25rem; /* 100px */
+
+    /* Typographie */
+    font-family: var(--ff-sans);
+    color: var(--clr-light);
+
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-glaucous);
+
+    /* Transformations et transitions */
+}
+
+.footer__section {
+    /* Propriété display */
+
+    /* Positionnement */
+    flex: 1;
+    margin: 0 0.625rem; /* 10px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.footer__title, .footer__heading {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-bottom: 0.625rem; /* 10px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.footer__title {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 1.5rem; /* 24px */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.0183125rem; /* -0.293px */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.footer__heading {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 1.125rem; /* 18px */
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem; /* 28px, 155.556% */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.footer__lien {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    color: var(--clr-light);
+
+    /* Effets Visuels & Graphiques */
+    text-decoration: none;
+
+    /* Transformations et transitions */
+}
+
+.footer__text, .footer__list {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin: 0;
+    list-style: none;
+
+    /* Modèle de boîte */
+    padding-top: 2.1875rem; /* 35px */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.footer__text {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+    width: 12.4375rem; /* 199px */
+    padding-top: 2.1875rem; /* 35px */
+    padding-bottom: 2.1875rem; /* 35px */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.footer__link {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 1rem; /* 16px */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem; /* 26px, 162.5% */
+    color: var(--clr-light);
+
+    /* Effets Visuels & Graphiques */
+    text-decoration: none;
+
+    /* Transformations et transitions */
+}
+
+.footer__item {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-bottom: 0.3125rem; /* 5px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.footer__link:hover {
+    /* Effets Visuels & Graphiques */
+    text-decoration: underline;
+}
+
+.footer__social-icons img {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-right: 0.625rem; /* 10px */
+
+    /* Modèle de boîte */
+    width: 6.7938rem; /* 108.701px */
+    height: 1.0446rem; /* 16.714px */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.footer__language {
+    /* Propriété display */
+    display: flex;
+
+    /* Positionnement */
+    align-items: center;
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.footer__flag-icon {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-right: 0.3125rem; /* 5px */
+
+    /* Modèle de boîte */
+    width: 1.0848rem; /* 17.357px */
+    height: 0.9643rem; /* 15.429px */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.footer__select-language {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+    padding: 0.3125rem; /* 5px */
+    border: 0.0625rem solid transparent; /* 1px */
+    border-radius: 0.25rem; /* 4px */
+
+    /* Typographie */
+    font-size: 1rem; /* 16px */
+    color: var(--clr-light);
+
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-glaucous);
+
+    /* Transformations et transitions */
+}

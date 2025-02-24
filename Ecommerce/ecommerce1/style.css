@@ -1,0 +1,249 @@
+.ecommerce {
+  /* Propriété display */
+  display: flex;
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+  padding: 1.25rem; /* 20px */
+  width: 80%;
+  max-width: 50rem; /* 800px */
+  border-radius: 0.5rem; /* 8px */
+ 
+
+  /* Typographie */
+  font-family: var(--ff-sans);
+
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-light);
+
+  /* Transformations et transitions */
+}
+
+.ecommerce__image {
+  /* Propriété display */
+
+  /* Positionnement */
+  flex: 0 0 40%;
+  max-width: 300px;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.ecommerce__image-item {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+  object-fit: cover;
+
+  /* Transformations et transitions */
+}
+
+.ecommerce__text {
+  /* Propriété display */
+  display: flex;
+
+  /* Positionnement */
+  flex-direction: column;
+  justify-content: center;
+
+  /* Modèle de boîte */
+  flex: 1;
+  padding: 1.25rem; /* 20px */
+  padding-left: 3.75rem; /* 60px */
+
+  /* Typographie */
+  color: var(--clr-light);
+
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-ateneo-blue);
+
+  /* Transformations et transitions */
+}
+
+.ecommerce__brand {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 1.5rem; /* 24px */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.ecommerce__promo {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin: 0.625rem 0; /* 10px 0 */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 2.5rem; /* 40px */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.ecommerce__text p {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin: 0.625rem 0; /* 10px 0 */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.ecommerce__description {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  color: var(--clr-light-brown);
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.ecommerce__price {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 1.125rem; /* 18px */
+  font-weight: bold;
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.ecommerce__original-price {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin-left: 0.625rem; /* 10px */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  text-decoration: line-through;
+  color: var(--clr-beige);
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.ecommerce__buttons {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin-top: 1.25rem; /* 20px */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.ecommerce__button {
+  /* Propriété display */
+
+  /* Positionnement */
+  cursor: pointer;
+
+  /* Modèle de boîte */
+  padding: 0.625rem 1.25rem; /* 10px 20px */
+  border-radius: 6.25rem; /* 100px */
+  border: none;
+
+  /* Typographie */
+  font-size: 1rem; /* 16px */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.ecommerce__button--buy-now {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin-right: 0.625rem; /* 10px */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  color: var(--clr-dark);
+
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-light);
+  border: 0.125rem solid var(--clr-light); /* 2px */
+
+  /* Transformations et transitions */
+}
+
+.ecommerce__button--buy-now:hover {
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-light-gray);
+  border: 0.125rem solid var(--clr-light-gray); /* 2px */
+}
+
+.ecommerce__button--view-more {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  color: var(--clr-light);
+
+  /* Effets Visuels & Graphiques */
+  background-color: transparent;
+  border: 0.125rem solid var(--clr-light); /* 2px */
+
+  /* Transformations et transitions */
+}
+
+.ecommerce__button--view-more:hover {
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-light-gray);
+  border: 0.125rem solid var(--clr-light-gray); /* 2px */
+}

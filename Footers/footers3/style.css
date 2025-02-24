@@ -1,0 +1,228 @@
+/* Footer Section */
+.footer-section {
+  /* Propriété display */
+
+  /* Positionnement */
+  text-align: center;
+
+  /* Modèle de boîte */
+  padding: 3.75rem; /* 60px */
+
+  /* Typographie */
+  color: var(--clr-light);
+
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-glaucous);
+
+  /* Transformations et transitions */
+}
+
+.footer-section__nav {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin-bottom: 1.25rem; /* 20px */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.footer-section__nav-list {
+  /* Propriété display */
+  display: flex;
+
+  /* Positionnement */
+  gap: 1.25rem; /* 20px */
+  padding-bottom: 0.9375rem; /* 15px */
+
+  /* Modèle de boîte */
+  list-style-type: none;
+  padding: 0;
+
+  /* Typographie */
+  font-size: 0.875rem; /* 14px */
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.625rem; /* 26px, 185.714% */
+  letter-spacing: 0.125rem; /* 2px */
+  text-transform: uppercase;
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.footer-section__nav-list li {
+  /* Propriété display */
+  display: inline;
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.footer-section__nav-list li a {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-weight: bold;
+  color: var(--clr-light);
+
+  /* Effets Visuels & Graphiques */
+  text-decoration: none;
+
+  /* Transformations et transitions */
+}
+
+.footer-section__line {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin: 1.25rem 0; /* 20px 0 */
+
+  /* Modèle de boîte */
+  border-top: 0.0625rem solid var(--clr-light); /* 1px */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.footer-section__content {
+  /* Propriété display */
+  display: flex;
+
+  /* Positionnement */
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.25rem; /* 20px */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.footer-section__description-container {
+  /* Propriété display */
+  display: flex;
+
+  /* Positionnement */
+  text-align: left;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.footer-section__startup {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin: 0;
+  margin-right: 3.75rem; /* 60px */
+  padding-top: 0.625rem; /* 10px */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.footer-section__description {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin-left: 3.75rem; /* 60px */
+
+  /* Modèle de boîte */
+  width: 25.0625rem; /* 401px */
+  padding-top: 0.625rem; /* 10px */
+
+  /* Typographie */
+  font-size: 1rem; /* 16px */
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 26px, 162.5% */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.footer-section__links {
+  /* Propriété display */
+
+  /* Positionnement */
+  text-align: right;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.footer-section__links a {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin-right: 0.9375rem; /* 15px */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  color: var(--clr-light);
+
+  /* Effets Visuels & Graphiques */
+  text-decoration: none;
+
+  /* Transformations et transitions */
+}
+
+.footer-section__icons {
+  /* Propriété display */
+  display: inline-block;
+
+  /* Positionnement */
+  vertical-align: middle;
+
+  /* Modèle de boîte */
+  width: 6.7938rem; /* 108.701px */
+  height: 1.0446rem; /* 16.714px */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}

@@ -1,0 +1,157 @@
+.comparison-container {
+    /* Propriété display */
+    display: flex;
+
+    /* Positionnement */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.comparison {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+    padding: 1.25rem; /* 20px */
+    width: 80%;
+    max-width: 50rem; /* 800px */
+    border-radius: 0.5rem; /* 8px */
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1); /* 0 0 10px */
+
+    /* Typographie */
+    font-family: var(--ff-sans);
+
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-light);
+
+    /* Transformations et transitions */
+}
+
+.comparison__title {
+    /* Propriété display */
+
+    /* Positionnement */
+    text-align: center;
+    margin-bottom: 1.25rem; /* 20px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    color: var(--clr-violent-violet);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.comparison__table {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+    width: 100%;
+    border-collapse: collapse;
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.comparison__table th,
+.comparison__table td {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+    padding: 0.75rem; /* 12px */
+
+    /* Typographie */
+    text-align: left;
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.comparison__header--feature, 
+.comparison__header--free, 
+.comparison__header--pro {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 0.875rem; /* 14px */
+    text-transform: uppercase;
+    color: var(--clr-light-brown);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.comparison__feature-name,
+.comparison__feature--free,
+.comparison__feature--pro {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 0.875rem; /* 14px */
+    color: var(--clr-violent-violet);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.comparison__feature-description {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 0.75rem; /* 12px */
+    color: var(--clr-light-brown);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.comparison__row1 {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+    background-color: var(--clr-light-gray);
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}

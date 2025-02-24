@@ -1,0 +1,141 @@
+/* Features Section */
+.features {
+  /* Propriété display */
+
+  /* Positionnement */
+  text-align: center;
+
+  /* Modèle de boîte */
+  padding: 6.25rem; /* 100px */
+
+  /* Typographie */
+  font-family: var(--ff-sans);
+
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-glaucous);
+
+  /* Transformations et transitions */
+}
+
+.features__title {
+  /* Propriété display */
+  display: block; /* Ensure block display */
+
+  /* Positionnement */
+  margin: 0 auto 1.25rem auto; /* Center align */
+
+  /* Modèle de boîte */
+  width: 60%; /* Increased width */
+  margin-bottom: 1.25rem; /* 20px */
+
+  /* Typographie */
+  font-size: 2.625rem; /* 42px */
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.25rem; /* 52px, 123.81% */
+  letter-spacing: -0.025rem; /* -0.4px */
+  color: var(--clr-light);
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.features__description {
+  /* Propriété display */
+  display: block; /* Ensure block display */
+
+  /* Positionnement */
+  margin: 0 auto 2.5rem auto; /* Center align */
+
+  /* Modèle de boîte */
+  width: 50%; /* Increased width */
+  margin-bottom: 2.5rem; /* 40px */
+
+  /* Typographie */
+  font-size: 1rem; /* 16px */
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 26px */
+  color: var(--clr-light);
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.features__list {
+  /* Propriété display */
+  display: flex;
+
+  /* Positionnement */
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.feature {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin: 0.625rem; /* 10px */
+
+  /* Modèle de boîte */
+  padding: 1.25rem; /* 20px */
+  border-radius: 0.3125rem; /* 5px */
+  max-width: 18.75rem; /* 300px */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.feature__title {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin-bottom: 0.625rem; /* 10px */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 0.875rem; /* 14px */
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.625rem; /* 26px, 185.714% */
+  letter-spacing: 0.125rem; /* 2px */
+  text-transform: uppercase;
+  color: var(--clr-light);
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.feature__description {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 1rem; /* 16px */
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 26px, 162.5% */
+  color: var(--clr-light);
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}

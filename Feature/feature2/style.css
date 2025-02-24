@@ -1,0 +1,206 @@
+.page {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin: 0 auto;
+    text-align: center;
+
+    /* Modèle de boîte */
+    padding: 1.875rem; /* 30px */
+
+    /* Typographie */
+    font-family: var(--ff-sans);
+
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-light);
+
+    /* Transformations et transitions */
+}
+
+.page__title {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin: 0 auto 1.25rem; /* Center the title */
+    text-align: center;
+
+    /* Modèle de boîte */
+    max-width: 575px;
+
+    /* Typographie */
+    font-size: 2.625rem; /* 42px */
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.25rem; /* 52px, 123.81% */
+    letter-spacing: -0.025rem; /* -0.4px */
+    color: var(--clr-violent-violet);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.page__content {
+    /* Propriété display */
+    display: flex;
+
+    /* Positionnement */
+    justify-content: center; /* Center the content */
+    align-items: center; /* Center items vertically */
+    gap: 1.25rem; /* Add gap between sections */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.page__left {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+    padding-left: 0; /* Remove padding */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.page__text, .page__info {
+    /* Propriété display */
+
+    /* Positionnement */
+    flex: 1; /* Allow text and info sections to flexibly fill space */
+    text-align: left;
+
+    /* Modèle de boîte */
+    max-width: 250px; /* Ensure content doesn't expand too much */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.page__info {
+    /* Propriété display */
+
+    /* Positionnement */
+    padding-left: 2.5rem; /* Increase padding to create more space */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.page__text {
+    /* Propriété display */
+
+    /* Positionnement */
+    flex: 2; /* Give the text section more space */
+    margin-bottom: 1.25rem; /* Add space below the text */
+
+    /* Modèle de boîte */
+    width: 13.5625rem; /* 217px */
+    height: auto;
+
+    /* Typographie */
+    font-size: 1.375rem; /* 22px */
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2rem; /* 32px, 145.455% */
+    color: var(--clr-violent-violet);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.page__image {
+    /* Propriété display */
+    display: flex;
+
+    /* Positionnement */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    text-align: center; /* Center the image */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.page__image-content {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+    width: 15.625rem; /* 250px */
+    height: 30.875rem; /* 494px */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.page__info-title {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-top: 1.25rem; /* 20px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 0.875rem; /* 14px */
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.625rem; /* 26px, 185.714% */
+    letter-spacing: 0.125rem; /* 2px */
+    text-transform: uppercase;
+    color: var(--clr-violent-violet);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.page__info-description {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-top: 0.8125rem; /* 13px */
+    margin-bottom: 1.25rem; /* Add some space below each description */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 1rem; /* 16px */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem; /* 26px, 162.5% */
+    color: var(--clr-light-brown);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}

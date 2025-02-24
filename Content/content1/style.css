@@ -1,0 +1,75 @@
+.container {
+    /* Propriété display */
+    display: flex;
+
+    /* Positionnement */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 1.25rem; /* 20px */
+
+    /* Modèle de boîte */
+    height: 100vh;
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+    background-image: url('../../../assets/wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+
+    /* Transformations et transitions */
+}
+
+.container__overlay {
+    /* Propriété display */
+
+    /* Positionnement */
+    text-align: left;
+
+    /* Modèle de boîte */
+    padding: 1.25rem; /* 20px */
+    border-radius: 10px; /* 10px */
+    max-width: 600px; /* 600px */
+
+    /* Typographie */
+    font-family: var(--ff-sans);
+    color: var(--clr-light);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.container__title {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin: 0;
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 2.5em;
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.container__text {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-top: 0.625rem; /* 10px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 1.2em;
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+

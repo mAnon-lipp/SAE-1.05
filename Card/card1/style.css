@@ -1,0 +1,72 @@
+.profile-card {
+    /* Propriété display */
+
+    /* Positionnement */
+    text-align: center;
+    margin-bottom: 1.25rem; /* 20px */
+
+    /* Modèle de boîte */
+    border-radius: 10px; /* 10px */
+    overflow: hidden;
+    width: 300px; /* 300px */
+
+    /* Typographie */
+    font-family: var(--ff-sans);
+
+    /* Effets Visuels & Graphiques */
+    background: var(--clr-light);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 0 4px 8px */
+
+    /* Transformations et transitions */
+}
+
+
+
+.profile-card__info {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+    padding: 1.25rem; /* 20px */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.profile-card__name {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin: 0;
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 24px; /* 24px */
+    color: var(--clr-dark-brown);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.profile-card__job {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin: 0.3125rem 0 0; /* 5px 0 0 */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 16px; /* 16px */
+    color: var(--clr-light-brown);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
