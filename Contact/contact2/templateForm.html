@@ -1,0 +1,32 @@
+<div class="get-in-touch__form">
+    <h2 class="get-in-touch__form-title">{{formTitle}}</h2>
+    <p class="get-in-touch__form-description">{{formDescription}}</p>
+    <form class="get-in-touch__form-form">
+        <label for="email" class="get-in-touch__form-label">E-mail</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            class="get-in-touch__form-input"
+            placeholder="{{emailPlaceholder}}"
+        />
+        <label for="message" class="get-in-touch__form-label">Message</label>
+        <textarea
+            id="message"
+            name="message"
+            class="get-in-touch__form-textarea"
+            placeholder="{{messagePlaceholder}}"
+        ></textarea>
+        <label for="name" class="get-in-touch__form-label">Name</label>
+        <div class="get-in-touch__form-group">
+            <input
+                type="text"
+                id="name"
+                name="name"
+                class="get-in-touch__form-input-inline"
+                placeholder="{{namePlaceholder}}"
+            />
+            <button type="submit" class="get-in-touch__form-button">{{buttonText}}</button>
+        </div>
+    </form>
+</div>

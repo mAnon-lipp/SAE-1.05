@@ -1,0 +1,322 @@
+.contact {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+  width: 100%;
+  padding: 6.25rem; /* 100px */
+
+  /* Typographie */
+  font-family: var(--ff-sans);
+
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-light);
+
+  /* Transformations et transitions */
+}
+
+.contact__header {
+  /* Propriété display */
+
+  /* Positionnement */
+  text-align: center;
+  margin-bottom: 1.25rem; /* 20px */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.contact__title {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin-bottom: 0.625rem; /* 10px */
+  text-align: left;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 2.625rem; /* 42px */
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.25rem; /* 52px, 123.81% */
+  letter-spacing: -0.025rem; /* -0.4px */
+  color: var(--clr-violent-violet);
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.contact__subtitle {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin-bottom: 0.625rem; /* 10px */
+  text-align: left;
+
+  /* Modèle de boîte */
+  width: 38.625rem; /* 618px */
+
+  /* Typographie */
+  font-size: 1.375rem; /* 22px */
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem; /* 32px, 145.455% */
+  color: var(--clr-dark-gray);
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.contact__phone {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin-bottom: 0.625rem; /* 10px */
+  text-align: left;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 1rem; /* 16px */
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 26px, 162.5% */
+  color: var(--clr-violent-violet);
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.contact__content {
+  /* Propriété display */
+  display: grid;
+
+  /* Positionnement */
+  grid-template-columns: 2fr 1fr;
+  gap: 1.25rem; /* 20px */
+  align-items: start;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.contact__form {
+  /* Propriété display */
+  display: flex;
+
+  /* Positionnement */
+  flex-direction: column;
+  gap: 1.25rem; /* 20px */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.contact__form-group {
+  /* Propriété display */
+  display: flex;
+
+  /* Positionnement */
+  justify-content: space-between;
+  margin-bottom: 0.625rem; /* 10px */
+  gap: 0.625rem; /* 10px */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.contact__input,
+.contact__select {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+  width: 100%;
+  padding: 0.625rem; /* 10px */
+  border: 0.0625rem solid #ccc; /* 1px */
+  border-radius: 6.25rem; /* 100px */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.contact__input--name,
+.contact__input--email {
+  /* Propriété display */
+
+  /* Positionnement */
+  flex: 1;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.contact__textarea {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+  width: 100%;
+  padding: 0.625rem; /* 10px */
+  border: 0.0625rem solid #ccc; /* 1px */
+  border-radius: 0.625rem; /* 10px */
+  height: 6.25rem; /* 100px */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.contact__input--phone {
+  /* Propriété display */
+
+  /* Positionnement */
+  flex: 2;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.contact__select--budget,
+.contact__select--company-size {
+  /* Propriété display */
+
+  /* Positionnement */
+  flex: 1;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  color: var(--clr-violent-violet);
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.contact__button {
+  /* Propriété display */
+
+  /* Positionnement */
+  cursor: pointer;
+  align-self: flex-end;
+
+  /* Modèle de boîte */
+  width: 12.8125rem; /* 205px */
+  height: 3.75rem; /* 60px */
+  padding: 0.625rem 1.25rem; /* 10px 20px */
+  border: none;
+  border-radius: 6.25rem; /* 100px */
+
+  /* Typographie */
+  font-size: 1rem; /* 16px */
+  color: var(--clr-light);
+
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-cosmic-cobalt);
+
+  /* Transformations et transitions */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.contact__button:hover {
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-chinese-black);
+}
+
+.contact__help {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+  padding: 1.25rem; /* 20px */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.contact__help-title {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+  width: 14.875rem; /* 238px */
+
+  /* Typographie */
+  font-size: 1.375rem; /* 22px */
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem; /* 32px, 145.455% */
+  color: #333;
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.contact__help-text {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+  width: 16.125rem; /* 258px */
+
+  /* Typographie */
+  font-size: 1rem; /* 16px */
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 26px, 162.5% */
+  color: #666;
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
