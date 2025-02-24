@@ -1,0 +1,210 @@
+.pricing {
+    /* Propriété display */
+
+    /* Positionnement */
+    text-align: center;
+    margin: auto;
+
+    /* Modèle de boîte */
+    padding: 1.25rem; /* 20px */
+    width: 80%;
+    border-radius: 0.625rem; /* 10px */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.pricing__title {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-bottom: 0.625rem; /* 10px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 1.5rem; /* 24px */
+    color: var(--clr-violent-violet);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.pricing__subtitle {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-bottom: 1.25rem; /* 20px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 1rem; /* 16px */
+    color: var(--clr-light-brown);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.pricing__plans {
+    /* Propriété display */
+    display: table;
+
+    /* Positionnement */
+    margin-top: 1.25rem; /* 20px */
+
+    /* Modèle de boîte */
+    width: 100%;
+    border-collapse: collapse;
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.pricing__plan {
+    /* Propriété display */
+    display: table-cell;
+
+    /* Positionnement */
+    vertical-align: top;
+
+    /* Modèle de boîte */
+    padding: 1.25rem; /* 20px */
+    border: 0.0625rem solid var(--clr-dark-beige); /* 1px */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.pricing__plan-title {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-bottom: 0.625rem; /* 10px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 1.25rem; /* 20px */
+    color: var(--clr-violent-violet);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.pricing__plan-subtitle {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-bottom: 1.25rem; /* 20px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 0.875rem; /* 14px */
+    color: var(--clr-light-brown);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.pricing__plan-price {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-bottom: 1.25rem; /* 20px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 1.5rem; /* 24px */
+    color: var(--clr-violent-violet);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.pricing__plan-button {
+    /* Propriété display */
+    display: inline-block;
+
+    /* Positionnement */
+    margin-bottom: 1.25rem; /* 20px */
+    cursor: pointer;
+    text-align: center;
+
+    /* Modèle de boîte */
+    padding: 0.625rem 1.25rem; /* 10px 20px */
+    border: none;
+    border-radius: 6.25rem; /* 100px */
+
+    /* Typographie */
+    font-size: 0.875rem; /* 14px */
+    color: var(--clr-light);
+
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-cosmic-cobalt);
+
+    /* Transformations et transitions */
+}
+
+.pricing__plan-button:hover {
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-chinese-black);
+}
+
+.pricing__plan-features {
+    /* Propriété display */
+
+    /* Positionnement */
+    padding: 0;
+
+    /* Modèle de boîte */
+    list-style: none;
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.pricing__plan-feature {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin: 0;
+    padding: 0.625rem 0; /* 10px 0 */
+    text-align: center;
+
+    /* Modèle de boîte */
+    border-top: 0.0625rem solid var(--clr-dark-beige); /* 1px */
+    width: 100%;
+
+    /* Typographie */
+    font-size: 0.875rem; /* 14px */
+    color: var(--clr-violent-violet);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.pricing__plan-feature:last-child {
+    /* Modèle de boîte */
+    border-bottom: 0.0625rem solid var(--clr-dark-beige); /* 1px */
+}

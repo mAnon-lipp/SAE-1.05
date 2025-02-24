@@ -1,0 +1,89 @@
+.navbar {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-bottom: 1.25rem; /* 20px */
+
+    /* Modèle de boîte */
+    padding: 0.625rem 1.25rem; /* 10px 20px */
+
+    /* Typographie */
+    font-family: var(--ff-sans);
+
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-glaucous);
+
+    /* Transformations et transitions */
+}
+
+.navbar__list {
+    /* Propriété display */
+    display: flex;
+
+    /* Positionnement */
+    justify-content: flex-start;
+    justify-content: center;
+
+    /* Modèle de boîte */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.navbar__item {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-right: 1.25rem; /* 20px */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.navbar__link {
+    /* Propriété display */
+
+    /* Positionnement */
+    position: relative;
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 13px; /* 13px */
+    color: var(--clr-light);
+
+    /* Effets Visuels & Graphiques */
+    text-decoration: none;
+
+    /* Transformations et transitions */
+}
+
+.navbar__link::after {
+    /* Effets Visuels & Graphiques */
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px; /* 2px */
+    background: var(--clr-indigo);
+    transition: width 0.3s;
+    position: absolute;
+    bottom: -5px; /* -5px */
+    left: 0;
+}
+
+.navbar__link:hover::after,
+.navbar__link:focus::after {
+    /* Effets Visuels & Graphiques */
+    width: 100%;
+}

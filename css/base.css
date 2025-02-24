@@ -1,0 +1,72 @@
+@import './reset.css';
+@import './variables.css';
+@import './index.css';
+
+@import '../component/Hero/style.css';
+@import '../component/Hero/hero2/style.css'; 
+
+
+
+@import '../component/Navigation/nav1/style.css';
+@import '../component/Navigation/nav2/style.css';
+@import '../component/Navigation/nav3/style.css';
+@import '../component/Navigation/nav4/style.css';
+
+@import '../component/Header/header/style.css';
+@import '../component/Header/header2/style.css';
+
+
+@import '../component/Card/card1/style.css';
+@import '../component/Card/card2/style.css';
+
+@import '../component/Content/content1/style.css';
+@import '../component/Content/content2/style.css';
+@import '../component/Content/content3/style.css';
+@import '../component/Content/content4/style.css';
+@import '../component/Content/content5/style.css';
+@import '../component/Content/content6/style.css';
+
+
+@import '../component/Form/form1/style.css';
+@import '../component/Form/form2/style.css';
+@import '../component/Form/form/style.css';
+
+@import '../component/Call/call1/style.css';
+@import '../component/Call/call2/style.css';
+@import '../component/Call/call3/style.css';
+@import '../component/Call/call4/style.css';
+
+@import '../component/Ecommerce/ecommerce1/style.css';
+@import '../component/Ecommerce/ecommerce2/style.css';
+@import '../component/Ecommerce/ecommerce3/style.css';
+
+@import '../component/Team/team/style.css';
+
+@import '../component/Feature/feature/style.css';
+@import '../component/Feature/feature2/style.css';
+
+@import '../component/Contact/contact/style.css';
+@import '../component/Contact/contact2/style.css';
+
+@import '../component/Testimonial/testimonial/style.css';
+
+@import '../component/Showcase/showcase/style.css';
+
+@import '../component/Pricing/pricing/style.css';
+
+@import '../component/Footers/footers1/style.css';
+@import '../component/Footers/footers2/style.css';
+@import '../component/Footers/footers3/style.css';
+@import '../component/Footers/footers4/style.css';
+
+
+@import '../Final/nav/style.css';
+@import '../Final/header/style.css';
+@import '../Final/content/style.css';
+@import '../Final/showcase/style.css';
+@import '../Final/team/style.css';
+@import '../Final/feature/style.css';
+@import '../Final/cta/style.css';
+@import '../Final/testimonial/style.css';
+@import '../Final/form/style.css';  
+@import '../Final/footer/style.css';

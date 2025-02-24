@@ -1,0 +1,214 @@
+.showcase {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+  padding: 6.25rem; /* 100px */
+
+  /* Typographie */
+  font-family: var(--ff-sans);
+  color: var(--clr-light);
+
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-glaucous);
+
+  /* Transformations et transitions */
+}
+
+.showcase__header {
+  /* Propriété display */
+  display: flex;
+
+  /* Positionnement */
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem; /* 20px */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.showcase__title {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin: 0;
+  text-align: left;
+  flex: 1;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.showcase__view-all-container {
+  /* Propriété display */
+  display: flex;
+
+  /* Positionnement */
+  flex: 1;
+  justify-content: flex-end;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.showcase__view-all {
+  /* Propriété display */
+
+  /* Positionnement */
+  cursor: pointer;
+
+  /* Modèle de boîte */
+  padding: 0.625rem 1.25rem; /* 10px 20px */
+  border-radius: 6.25rem; /* 100px */
+  border: 0.0625rem solid var(--clr-light); /* 1px */
+
+  /* Typographie */
+  color: var(--clr-light);
+
+  /* Effets Visuels & Graphiques */
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+
+  /* Transformations et transitions */
+}
+
+.showcase__view-all:hover {
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-light);
+  color: var(--clr-dark-gray);
+}
+
+.showcase__works {
+  /* Propriété display */
+  display: grid;
+
+  /* Positionnement */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem; /* 20px */
+  justify-items: center;
+  margin-top: 1.25rem; /* 20px */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.showcase__work-item {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+  width: 29.375rem; /* 470px */
+  height: auto;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.showcase__image {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+  width: 100%;
+  height: 17.5rem; /* 280px */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+  object-fit: cover;
+  transition: transform 0.3s ease;
+
+  /* Transformations et transitions */
+}
+
+.showcase__work-item:hover .showcase__image {
+  /* Effets Visuels & Graphiques */
+  transform: scale(1.1);
+}
+
+.showcase__work-info {
+  /* Propriété display */
+
+  /* Positionnement */
+  text-align: center;
+
+  /* Modèle de boîte */
+  padding: 0.625rem; /* 10px */
+
+  /* Typographie */
+  color: #fff;
+
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-glaucous);
+
+  /* Transformations et transitions */
+}
+
+.showcase__category {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 0.875rem; /* 14px */
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.625rem; /* 26px, 185.714% */
+  letter-spacing: 0.125rem; /* 2px */
+  text-transform: uppercase;
+  color: #fff;
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.showcase__work-title {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin: 0.625rem 0 0; /* 10px 0 0 */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 1.375rem; /* 22px */
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem; /* 32px, 145.455% */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}

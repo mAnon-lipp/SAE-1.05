@@ -1,0 +1,121 @@
+.navbar2 {
+    /* Propriété display */
+    display: flex;
+
+    /* Positionnement */
+    justify-content: space-between;
+    align-items: center;
+
+    /* Modèle de boîte */
+    padding: 0.625rem 1.25rem; /* 10px 20px */
+
+    /* Typographie */
+    font-family: var(--ff-sans);
+
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-glaucous);
+
+    /* Transformations et transitions */
+}
+
+.navbar2__logo {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 24px; /* 24px */
+    color: var(--clr-light);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.navbar2__list {
+    /* Propriété display */
+    display: flex;
+
+    /* Positionnement */
+    gap: 1.25rem; /* 20px */
+    margin: 0;
+    padding: 0;
+
+    /* Modèle de boîte */
+    list-style: none;
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.navbar2__item {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+    display: inline;
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.navbar2__link {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 14px; /* 14px */
+    color: var(--clr-light);
+
+    /* Effets Visuels & Graphiques */
+    text-decoration: none;
+
+    /* Transformations et transitions */
+}
+
+.navbar2__search-container {
+    /* Propriété display */
+
+    /* Positionnement */
+    position: relative;
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.navbar2__search-input {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+    padding: 0.3125rem 0.625rem; /* 5px 10px */
+    border: 1px solid var(--clr-light-brown); /* 1px */
+    border-radius: 15px; /* 15px */
+
+    /* Typographie */
+    color: var(--clr-light);
+
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-glaucous);
+
+    /* Transformations et transitions */
+    outline: none;
+}

@@ -1,0 +1,336 @@
+.header3 {
+  /* Propriété display */
+  display: flex;
+
+  /* Positionnement */
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+  /* Modèle de boîte */
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+  /* Typographie */
+  font-family: var(--ff-sans);
+  color: white;
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.main-nav {
+  /* Propriété display */
+  display: flex;
+
+  /* Positionnement */
+  position: absolute;
+  top: 20px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 2;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.main-nav__left {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin-left: 20px;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.main-nav__brand {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--clr-light);
+
+  /* Effets Visuels & Graphiques */
+  text-decoration: none;
+
+  /* Transformations et transitions */
+}
+
+.main-nav__center {
+  /* Propriété display */
+
+  /* Positionnement */
+  flex-grow: 1;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.main-nav__list {
+  /* Propriété display */
+  display: flex;
+
+  /* Positionnement */
+  justify-content: center;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+
+  /* Modèle de boîte */
+  list-style: none;
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.main-nav__item {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin: 0;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.main-nav__link {
+  /* Propriété display */
+
+  /* Positionnement */
+  padding: 10px 20px;
+  position: relative;
+  transition: background 0.3s;
+
+  /* Modèle de boîte */
+  border-radius: 5px;
+
+  /* Typographie */
+  color: var(--clr-light);
+
+  /* Effets Visuels & Graphiques */
+  text-decoration: none;
+  border-radius: 100px;
+
+  /* Transformations et transitions */
+}
+
+.main-nav__link::after {
+  /* Effets Visuels & Graphiques */
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: var(--clr-light);
+  transition: width 0.3s;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 100px;
+}
+
+.main-nav__link:hover {
+  /* Effets Visuels & Graphiques */
+  background: var(--clr-light-gray);
+  border-radius: 100px;
+}
+
+.main-nav__link:hover::after {
+  /* Effets Visuels & Graphiques */
+  width: 100%;
+}
+
+.main-nav__right {
+  /* Propriété display */
+  display: flex;
+
+  /* Positionnement */
+  margin-right: 20px;
+  gap: 10px;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.main-nav__link--signup {
+  /* Propriété display */
+
+  /* Positionnement */
+  padding: 10px 20px;
+
+  /* Modèle de boîte */
+  border-radius: 100px;
+
+  /* Typographie */
+  color: var(--clr-light);
+
+  /* Effets Visuels & Graphiques */
+  background: var(--clr-cosmic-cobalt);
+
+  /* Transformations et transitions */
+}
+
+.main-nav__link--signup:hover {
+  /* Effets Visuels & Graphiques */
+  background: var(--clr-chinese-black);
+}
+
+.header__content {
+  /* Propriété display */
+
+  /* Positionnement */
+  position: relative;
+  top: 20%; /* Adjusted value to move the content higher */
+  transform: translateY(-50%);
+  text-align: center;
+  z-index: 2;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.header__title {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin: 0;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 3rem;
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.header__info {
+  /* Propriété display */
+  display: flex;
+
+  /* Positionnement */
+  justify-content: center;
+  position: relative;
+  top: 60%;
+  gap: 50px;
+  margin-top: 20px;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.header__info-item {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+  max-width: 300px;
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.header__subtitle {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin: 0.5rem 0;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 2rem;
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.header__text {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin: 1rem 0;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 1rem;
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.header__video {
+  /* Propriété display */
+
+  /* Positionnement */
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  /* Modèle de boîte */
+  width: 100%;
+  height: 100%;
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+  object-fit: cover;
+  z-index: 1;
+
+  /* Transformations et transitions */
+}

@@ -1,0 +1,28 @@
+<section class="hero">
+    <div class="hero__container">
+        <div class="hero__text">
+            <h1 class="hero__title">{{heroTitle}}</h1>
+            <p class="hero__description">{{heroDescription}}</p>
+            <a href="#" class="hero__button">{{heroButtonText}}</a>
+        </div>
+        <div class="hero__signup">
+            <h2 class="hero__signup-title">{{heroSignupTitle}}</h2>
+            <form class="hero__signup-form">
+                <input type="email" class="hero__signup-input" placeholder="{{heroSignupEmailPlaceholder}}" required />
+                <input type="password" class="hero__signup-input" placeholder="{{heroSignupPasswordPlaceholder}}" required />
+                <label class="hero__signup-checkbox">
+                    <input type="checkbox" required />
+                    {{heroSignupCheckboxText}}
+                </label>
+                <button type="submit" class="hero__signup-button">{{heroSignupButtonText}}</button>
+                <div class="signup-separator">
+                    <div class="signup-separator__line"></div>
+                    <span class="signup-separator__text">{{heroSignupSeparatorText}}</span>
+                    <div class="signup-separator__line"></div>
+                </div>
+                <button type="button" class="hero__signup-twitter">{{heroSignupTwitterText}}</button>
+            </form>
+            <p class="hero__signin-link">{{heroSigninText}} <a href="#">{{heroSigninLinkText}}</a></p>
+        </div>
+    </div>
+</section>

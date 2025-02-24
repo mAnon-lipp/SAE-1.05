@@ -1,0 +1,179 @@
+/* Team Section */
+.team {
+  /* Propriété display */
+
+  /* Positionnement */
+  text-align: center;
+
+  /* Modèle de boîte */
+  padding: 3.125rem 1.25rem; /* 50px 20px */
+
+  /* Typographie */
+  font-family: var(--ff-sans);
+
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-light);
+
+  /* Transformations et transitions */
+}
+
+.team__section-title {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin-bottom: 0.625rem; /* 10px */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 1.5rem;
+  color: var(--clr-bleu-de-france);
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.team__title {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin-bottom: 0.625rem; /* 10px */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 2.5rem;
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.team__description {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin-bottom: 2.5rem; /* 40px */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 1rem;
+  color: var(--clr-light-brown);
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.team__cards {
+  /* Propriété display */
+  display: flex;
+
+  /* Positionnement */
+  justify-content: center;
+  flex-wrap: wrap;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.team__card {
+  /* Propriété display */
+
+  /* Positionnement */
+  position: relative;
+  margin: 0.625rem; /* 10px */
+
+  /* Modèle de boîte */
+  width: 15.625rem; /* 250px */
+  height: 18.75rem; /* 300px */
+  border-radius: 0.5rem; /* 8px */
+  overflow: hidden;
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-light);
+
+  /* Transformations et transitions */
+}
+
+.team__card-image {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+  width: 100%;
+  height: 100%;
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+  object-fit: cover;
+
+  /* Transformations et transitions */
+}
+
+.team__card-text {
+  /* Propriété display */
+
+  /* Positionnement */
+  position: absolute;
+  bottom: 1.25rem; /* 20px */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+
+  /* Modèle de boîte */
+  width: 80%;
+  padding: 0.625rem; /* 10px */
+  border-radius: 0.5rem; /* 8px */
+
+  /* Typographie */
+  color: var(--clr-light);
+
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-light);
+
+  /* Transformations et transitions */
+}
+
+.team__card-title {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin-bottom: 0.3125rem; /* 5px */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 1.2rem;
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.team__card-role {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 0.9rem;
+  color: var(--clr-light-brown);
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}

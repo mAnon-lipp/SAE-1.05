@@ -1,0 +1,151 @@
+* {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.header {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+  padding: 1.25rem 0; /* 20px 0 */
+
+  /* Typographie */
+  font-family: var(--ff-sans);
+
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-glaucous);
+
+  /* Transformations et transitions */
+}
+
+.header__container {
+  /* Propriété display */
+  display: flex;
+
+  /* Positionnement */
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+
+  /* Modèle de boîte */
+  width: 80%;
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.header__logo {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 1.5rem; /* 24px */
+  font-weight: bold;
+  color: var(--clr-light);
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.header__nav {
+  /* Propriété display */
+  display: flex;
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.header__nav-list {
+  /* Propriété display */
+  display: flex;
+
+  /* Positionnement */
+  gap: 1.25rem; /* 20px */
+  margin: 0;
+  padding: 0;
+
+  /* Modèle de boîte */
+  list-style: none;
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.header__nav-link {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+  padding: 0.625rem 1.25rem; /* 10px 20px */
+
+  /* Typographie */
+  font-size: 1rem; /* 16px */
+  color: var(--clr-light);
+
+  /* Effets Visuels & Graphiques */
+  text-decoration: none;
+  border-radius: 100px;
+
+  /* Transformations et transitions */
+}
+
+.header__nav-link:hover {
+  /* Effets Visuels & Graphiques */
+  color: var(--clr-light-gray);
+}
+
+.header__nav-link--button {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+  padding: 0.625rem 1.25rem; /* 10px 20px */
+  border-radius: 100px; /* 5px */
+
+  /* Typographie */
+  color: var(--clr-light);
+
+  /* Effets Visuels & Graphiques */
+  background-color: var(--clr-cosmic-cobalt);
+
+  /* Transformations et transitions */
+}
+
+.header__nav-link--button:hover {
+  /* Effets Visuels & Graphiques */
+  color: var(--clr-light);
+  background-color: var(--clr-chinese-black);
+}

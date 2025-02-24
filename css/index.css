@@ -1,0 +1,54 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Main Content */
+.home-content {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-content__cards {
+    display: flex;
+    gap: 2rem;
+}
+
+.home-card {
+    background-color: var(--clr-light);
+    border: 1px solid var(--clr-violent-violet); /* Dark blue */
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    width: 300px;
+}
+
+.home-card__title {
+    font-size: 1.5rem;
+    color: var(--clr-violent-violet); /* Dark blue */
+    margin-bottom: 1rem;
+}
+
+.home-card__description {
+    font-size: 1rem;
+    color: #7a7a7a;
+    margin-bottom: 1.5rem;
+}
+
+.home-card__button {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: var(--clr-light); /* White */
+    background-color: var(--clr-cosmic-cobalt); /* Dark blue */
+    text-decoration: none;
+}
+
+.home-card__button:hover {
+    background-color: var(--clr-chinese-black); /* Tomato color */
+}

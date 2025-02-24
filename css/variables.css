@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,700&display=swap");
+
+:root {
+  --clr-dark: hsl(0, 0%, 0%);
+  --clr-light: hsl(0, 0%, 100%);
+  
+  --clr-beige :hsl(0, 0%, 80%);
+  --clr-dark-beige :hsl(0, 0%, 61%);
+  --clr-light-gray :hsla(0, 0%, 84%, 0.718);
+  --clr-dark-gray : hsl(0, 0%, 40%); 
+
+  --clr-light-brown:hsl(0, 0%, 47%);
+  --clr-dark-brown:hsl(0, 0%, 20%);
+
+
+  --clr-dark-blue-gray:rgb(117, 70, 232);
+  --clr-bleu-de-france :hsl(220, 100%, 60%);
+  --clr-glaucous :hsl(220, 31%, 53%);
+  --clr-ateneo-blue :hsl(213, 80%, 24%);
+  --clr-indigo :hsl(220, 63%, 25%);
+  --clr-cosmic-cobalt : hsl(234, 62%, 34%); 
+  --clr-violent-violet :hsl(251, 75%, 22%);
+  --clr-chinese-black : hsl(246, 58%, 10%) ;
+ 
+  
+
+
+  --ff-sans: "DM sans", sans-serif;
+}

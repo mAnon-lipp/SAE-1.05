@@ -1,0 +1,129 @@
+/* Testimonial Section */
+.testimonial {
+  /* Propriété display */
+
+  /* Positionnement */
+  text-align: center;
+  margin: 2.5rem auto; /* 40px auto */
+
+  /* Modèle de boîte */
+  max-width: 37.5rem; /* 600px */
+  padding: 1.25rem; /* 20px */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.testimonial__quote-icon {
+  /* Propriété display */
+
+  /* Positionnement */
+  justify-content: center;
+  margin-bottom: 0.625rem; /* 10px */
+
+  /* Modèle de boîte */
+  width: 1.8571rem; /* 29.714px */
+  height: 1.5714rem; /* 25.143px */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.testimonial__quote {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin-bottom: 1.25rem; /* 20px */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 1.2em;
+  color: var(--clr-violent-violet);
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.testimonial__author {
+  /* Propriété display */
+  display: flex;
+
+  /* Positionnement */
+  flex-direction: column;
+  align-items: center;
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.testimonial__author-image {
+  /* Propriété display */
+
+  /* Positionnement */
+  margin-bottom: 0.625rem; /* 10px */
+
+  /* Modèle de boîte */
+  width: 5rem; /* 80px */
+  height: 5rem; /* 80px */
+  border-radius: 50%;
+
+  /* Typographie */
+
+  /* Effets Visuels & Graphiques */
+  object-fit: cover;
+
+  /* Transformations et transitions */
+}
+
+.testimonial__author-name {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 1.125rem; /* 18px */
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.75rem; /* 28px */
+  color: var(--clr-violent-violet);
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}
+
+.testimonial__author-company {
+  /* Propriété display */
+
+  /* Positionnement */
+
+  /* Modèle de boîte */
+
+  /* Typographie */
+  font-size: 0.875rem; /* 14px */
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.625rem; /* 26px, 185.714% */
+  letter-spacing: 0.125rem; /* 2px */
+  text-transform: uppercase;
+  color: var(--clr-light-brown);
+
+  /* Effets Visuels & Graphiques */
+
+  /* Transformations et transitions */
+}

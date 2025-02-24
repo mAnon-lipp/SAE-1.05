@@ -1,0 +1,164 @@
+/* Global styles */
+* {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* Typographie */
+    font-family: var(--ff-sans);
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+/* Header */
+.header1 {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+    padding: 1rem 2rem;
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-light);
+
+    /* Transformations et transitions */
+}
+
+/* Navigation Bar */
+.header1__nav .nav-list {
+    /* Propriété display */
+    display: flex;
+
+    /* Positionnement */
+    align-items: center;
+
+    /* Modèle de boîte */
+    list-style: none;
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+/* Brand */
+.nav-list__item--brand {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-right: auto;
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.nav-list__link--brand {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--clr-violent-violet); /* Dark blue */
+
+    /* Effets Visuels & Graphiques */
+    text-decoration: none;
+
+    /* Transformations et transitions */
+}
+
+/* Navigation Links */
+.nav-list__item {
+    /* Propriété display */
+
+    /* Positionnement */
+    margin-right: 2rem;
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+
+    /* Effets Visuels & Graphiques */
+
+    /* Transformations et transitions */
+}
+
+.nav-list__link {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    color: var(--clr-violent-violet); /* Dark blue */
+
+    /* Effets Visuels & Graphiques */
+    text-decoration: none;
+
+    /* Transformations et transitions */
+}
+
+.nav-list__link--brand {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+
+    /* Typographie */
+    color: var(--clr-violent-violet);
+
+    /* Effets Visuels & Graphiques */
+    text-decoration: none;
+
+    /* Transformations et transitions */
+}
+
+.nav-list__link:hover {
+    /* Effets Visuels & Graphiques */
+    color: var(--clr-dark-blue-gray); /* Tomato color */
+}
+
+.nav-list__link--button {
+    /* Propriété display */
+
+    /* Positionnement */
+
+    /* Modèle de boîte */
+    padding: 0.5rem 1rem;
+    border-radius: 100px; /* 5px */
+
+    /* Typographie */
+    color: var(--clr-light); /* White */
+
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-cosmic-cobalt); /* Dark blue */
+    text-decoration: none;
+
+    /* Transformations et transitions */
+}
+
+.nav-list__link--button:hover {
+    /* Effets Visuels & Graphiques */
+    background-color: var(--clr-chinese-black); /* Tomato color */
+}
