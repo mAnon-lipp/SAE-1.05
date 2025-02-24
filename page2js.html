@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mes composants</title>
+    <link rel="stylesheet" href="./css/base.css" />
+  </head>
+  <body>
+    <h1>TEST Nav</h1>
+    <section class="Header3"></section>
+    <section class="Navigation1"></section>
+    <section class="Navigation2"></section>
+    <section class="Navigation"></section>
+    <section class="Navigation3"></section>
+    <section class="Header"></section>
+    <h1>TEST Card</h1>
+    <section class="Card1"></section>
+    <section class="Card2"></section>
+    <h1>TEST Content</h1>
+    <section class="Content1"></section>
+    <section class="Content2"></section>
+    <section class="Content3"></section>
+    <section class="Content4"></section>
+    <section class="Content5"></section>
+    <section class="Content6"></section>
+    <h1>TEST Forms</h1>
+    <section class="Form1"></section>
+    <section class="Form2"></section>
+    <section class="Form3"></section>
+    <h1>TEST Call to action</h1>
+    <section class="Call1"></section>
+    <section class="Call2"></section>
+    <section class="Call3"></section>
+    <section class="Call4"></section>
+    <h1>TEST Ecommerce</h1>
+    <section class="Ecommerce1"></section>
+    <section class="Ecommerce2"></section>
+    <h1>TEST Team</h1>
+    <section class="Team"></section>
+    <h1>TEST Features</h1>
+    <section class="Feature1"></section>
+    <section class="Feature2"></section>
+    <h1>TEST Testimonials</h1>
+    <section class="Testimonial"></section>
+    <h1>TEST Contact</h1>
+    <section class="Contact"></section>
+    <section class="Contact2"></section>
+    <h1>TEST Pricing</h1>
+    <section class="Pricing"></section>
+    <h1>TEST Hero</h1>
+    <section class="Hero"></section>
+    <h1>TEST Showcase</h1>
+    <section class="Showcase"></section>
+    <h1>TEST Footers</h1>
+    <section class="Footer1"></section>
+    <section class="Footer2"></section>
+    <section class="Footer3"></section>
+    <section class="Footer4"></section>
+
+    <!-- HTML du composant Navigation -->
+    <script type="module">
+      import { DataNav1 } from "./data/dataNav1.js";
+      import { Nav1 } from "./component/Navigation/nav1/script.js";
+
+      Nav1.render(".Navigation1", DataNav1);
+
+      import { DataNav2 } from "./data/dataNav2.js";
+      import { Nav2 } from "./component/Navigation/nav2/script.js";
+
+      Nav2.render(".Navigation2", DataNav2);
+
+      import { DataNav3 } from "./data/dataNav3.js";
+      import { Nav3 } from "./component/Navigation/nav3/script.js";
+
+      Nav3.render(".Navigation3", DataNav3);
+
+      import { DataHeader } from "./data/dataHeader.js";
+      import { Header } from "./component/Header/header/script.js";
+
+      Header.render(".Header", DataHeader);
+
+      import { DataProfileCard } from "./data/dataCard1.js";
+      import { ProfileCard } from "./component/Card/card1/script.js";
+
+      ProfileCard.render(".Card1", DataProfileCard);
+
+      import { DataCard } from "./data/dataCard2.js";
+      import { Card } from "./component/Card/card2/script.js";
+
+      Card.render(".Card2", DataCard);
+
+      import { DataContainer } from "./data/dataContent1.js";
+      import { Container } from "./component/Content/content1/script.js";
+
+      Container.render(".Content1", DataContainer);
+
+      import { DataContentSection } from "./data/dataContent2.js";
+      import { ContentSection } from "./component/Content/content2/script.js";
+
+      ContentSection.render(".Content2", DataContentSection);
+
+      import { DataDescription } from "./data/dataContent5.js";
+      import { Description } from "./component/Content/content5/script.js";
+
+      Description.render(".Content5", DataDescription);
+
+      import { DataForm } from "./data/dataForm1.js";
+      import { Form } from "./component/Form/form1/script.js";
+
+      Form.render(".Form1", DataForm);
+
+      import { DataSignup } from "./data/dataForm2.js";
+      import { Signup } from "./component/Form/form2/script.js";
+
+      Signup.render(".Form2", DataSignup);
+
+      import { DataDemoSection } from "./data/dataForm.js";
+      import { DemoSection } from "./component/Form/form/script.js";
+
+      DemoSection.render(".Form3", DataDemoSection);
+
+      import { DataCta } from "./data/dataCall1.js";
+      import { Cta } from "./component/Call/call1/script.js";
+
+      Cta.render(".Call1", DataCta);
+
+      import { DataCtaSection } from "./data/dataCall2.js";
+      import { CtaSection } from "./component/Call/call2/script.js";
+
+      CtaSection.render(".Call2", DataCtaSection);
+
+      import { DataCall } from "./data/dataCall3.js";
+      import { Call } from "./component/Call/call3/script.js";
+
+      Call.render(".Call3", DataCall);
+
+      import { DataCtaContainer } from "./data/dataCall4.js";
+      import { CtaContainer } from "./component/Call/call4/script.js";
+
+      CtaContainer.render(".Call4", DataCtaContainer);
+
+      import { DataEcommerce } from "./data/dataEcommerce1.js";
+      import { Ecommerce } from "./component/Ecommerce/ecommerce1/script.js";
+
+      Ecommerce.render(".Ecommerce1", DataEcommerce);
+
+      import { DataFlights } from "./data/dataEcommerce2.js";
+      import { Flights } from "./component/Ecommerce/ecommerce2/script.js";
+
+      Flights.render(".Ecommerce2", DataFlights);
+
+      import { DataTeam } from "./data/dataTeam.js";
+      import { Team } from "./component/Team/team/script.js";
+
+      Team.render(".Team", DataTeam);
+
+      import { DataFeatures } from "./data/dataFeature.js";
+      import { Features } from "./component/Feature/feature/script.js";
+
+      Features.render(".Feature2", DataFeatures);
+
+      import { DataTestimonial } from "./data/dataTestimonial.js";
+      import { Testimonial } from "./component/Testimonial/testimonial/script.js";
+
+      Testimonial.render(".Testimonial", DataTestimonial);
+
+      import { DataFooter1 } from "./data/dataFooter1.js";
+      import { Footer1 } from "./component/Footers/footers1/script.js";
+
+      Footer1.render(".Footer1", DataFooter1);
+
+      import { DataSiteFooter } from "./data/dataFooter2.js";
+      import { SiteFooter } from "./component/Footers/footers2/script.js";
+
+      SiteFooter.render(".Footer2", DataSiteFooter);
+
+      import { DataFooterSection } from "./data/dataFooter3.js";
+      import { FooterSection } from "./component/Footers/footers3/script.js";
+
+      FooterSection.render(".Footer3", DataFooterSection);
+      import { DataHeader3 } from "./data/dataHero2.js";
+      import { Header3 } from "./component/Hero/hero2/script.js";
+
+      Header3.render(".Header3", DataHeader3);
+
+      import { DataMediaSection } from "./data/dataContent6.js";
+      import { MediaSection } from "./component/Content/content6/script.js";
+
+      MediaSection.render(".Content6", DataMediaSection);
+
+      import { DataGetInTouch } from "./data/dataContact2.js";
+      import { GetInTouch } from "./component/Contact/contact2/script.js";
+
+      GetInTouch.render(".Contact2", DataGetInTouch);
+
+      import { DataPricing } from "./data/dataPricing.js";
+      import { Pricing } from "./component/Pricing/pricing/script.js";
+
+      Pricing.render(".Pricing", DataPricing);
+      import { DataNavi } from "./data/dataNav4.js";
+      import { Navi } from "./component/Navigation/nav4/script.js";
+
+      Navi.render(".Navigation", DataNavi);
+      import { DataHero } from "./data/dataHero.js";
+      import { Hero } from "./component/Header/header2/script.js";
+
+      Hero.render(".Hero", DataHero);
+
+      import { DataProcess } from "./data/dataContent3.js";
+      import { Process } from "./component/Content/content3/script.js";
+
+      Process.render(".Content3", DataProcess);
+
+      import { DataComparison } from "./data/dataContent4.js";
+      import { Comparison } from "./component/Content/content4/script.js";
+
+      Comparison.render(".Content4", DataComparison);
+
+      import { DataContact } from "./data/dataContact.js";
+      import { Contact } from "./component/Contact/contact/script.js";
+
+      Contact.render(".Contact", DataContact);
+
+      import { DataFeature } from "./data/dataFeature2.js";
+      import { Feature } from "./component/Feature/feature2/script.js";
+
+      Feature.render(".Feature1", DataFeature);
+
+      import { DataShowcase } from "./data/dataShowcase.js";
+      import { Showcase } from "./component/Showcase/showcase/script.js";
+
+      Showcase.render(".Showcase", DataShowcase);
+
+      import { DataFooter } from "./data/dataFooter4.js";
+      import { Footer } from "./component/Footers/footers4/script.js";
+
+      Footer.render(".Footer4", DataFooter);
+    </script>
+  </body>
+</html>

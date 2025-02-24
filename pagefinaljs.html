@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MusicMatch</title>
+    <link rel="stylesheet" href="./css/base.css" />
+  </head>
+  <body>
+    <section class="Navigation"></section>
+    <section class="Header"></section>
+    <section class="Content"></section>
+    <section class="Showcase"></section>
+    <section class="Team"></section>
+    <section class="Feature"></section>
+    <section class="Cta"></section>
+    <section class="Testimonial"></section>
+    <section class="Form"></section>
+    <section class="Footer"></section>
+
+    <script type="module">
+      import { DataNav } from "./data/nav.js";
+      import { Nav } from "./Final/nav/script.js";
+
+      Nav.render(".Navigation", DataNav);
+
+      import { DataHeader } from "./data/header.js";
+      import { Header } from "./Final/header/script.js";
+
+      Header.render(".Header", DataHeader);
+
+      import { DataContent } from "./data/content.js";
+      import { Content } from "./Final/content/script.js";
+
+      Content.render(".Content", DataContent);
+
+      import { DataShowcase } from "./data/showcase.js";
+      import { Showcase } from "./Final/showcase/script.js";
+
+      Showcase.render(".Showcase", DataShowcase);
+
+      import { DataTeam } from "./data/team.js";
+      import { Team } from "./Final/team/script.js";
+
+      Team.render(".Team", DataTeam);
+
+      import { DataFeatures } from "./data/feature.js";
+      import { Feature } from "./Final/feature/script.js";
+
+      Feature.render(".Feature", DataFeatures);
+
+      import { DataCTA } from "./data/cta.js";
+      import { CallToAction } from "./Final/cta/script.js";
+
+      CallToAction.render(".Cta", DataCTA);
+
+      import { DataTestimonial } from "./data/testimonial.js";
+      import { Testimonial } from "./Final/testimonial/script.js";
+
+      Testimonial.render(".Testimonial", DataTestimonial);
+
+      import { DataDemoSection } from "./data/form.js";
+      import { DemoSection } from "./Final/form/script.js";
+
+      DemoSection.render(".Form", DataDemoSection);
+
+      import { DataFooter } from "./data/footer.js";
+      import { Footer } from "./Final/footer/script.js";
+
+      Footer.render(".Footer", DataFooter);
+    </script>
+  </body>
+</html>
