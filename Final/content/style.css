@@ -1,0 +1,32 @@
+/* Section Description */
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  text-align: center;
+  padding: 6.25rem 12.5rem; /* 100px 200px */
+  background-color: var(--clr-light);
+  flex-direction: column; /* Default for small screens */
+}
+
+.description__text {
+  margin: 0;
+  font-size: 2.625rem; /* 42px */
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.25rem; /* 52px, 123.81% */
+  letter-spacing: -0.025rem; /* -0.4px */
+  color: var(--clr-violent-violet);
+}
+
+/* Media Queries pour la réactivité */
+@media (min-width: 768px) {
+  .description {
+    flex-direction: row; /* Adjust direction for larger screens */
+  }
+
+  .description__text {
+    font-size: 2.625rem; /* 42px */
+  }
+}
